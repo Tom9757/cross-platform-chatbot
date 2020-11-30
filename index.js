@@ -8,7 +8,7 @@ exports.App = () => {
         text(/^(rank)$/i, handler.rank),
         text(/^(help|help )$/i, handler.help),
         text(/^(recentweek)$/i, handler.recentweek),
-		text(/^(lightmusick)$/i, handler.lightmusic),
+	text(/^(lightmusick)$/i, handler.lightmusic),
         text(/^(recentday)$/i, handler.recentday),
 
 
